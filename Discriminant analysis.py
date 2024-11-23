@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+
 # Crear un conjunto de datos aleatorio
 np.random.seed(42)
 data = np.random.rand(100, 5)  # 100 muestras, 5 características
